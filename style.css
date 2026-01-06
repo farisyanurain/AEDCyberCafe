@@ -1,0 +1,22 @@
+/* --- CSS Scroll Padding for Fixed Header --- */
+html {
+    scroll-padding-top: 5rem; /* 80px */
+}
+
+/* --- Custom Scrollbar (Optional but looks nice) --- */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f1115;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2d3748;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6;
+}
